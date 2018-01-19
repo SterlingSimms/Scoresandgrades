@@ -1,5 +1,5 @@
+import random
 def scoresGrades():
-    import random
     for grade in range(10):
         grade = random.randint(0, 100)
         if grade in range(0, 60):
